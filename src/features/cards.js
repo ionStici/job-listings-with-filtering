@@ -3,7 +3,6 @@ import { TagBar } from './tagBar';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectAllCompanies } from './../store';
 import { selectFilteredCompanies } from './../store';
-
 import { addTag } from './../store';
 import { filterCompanies } from './../store';
 

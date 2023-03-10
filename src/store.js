@@ -77,21 +77,3 @@ export const selectFilteredCompanies = state => state.filteredCompanies;
 export const selectTags = state => state.tags;
 
 export const store = createStore(reducer);
-
-// store.dispatch(addTag('Frontend'));
-// store.dispatch(filterCompanies());
-
-// store.dispatch(removeTag('Frontend'));
-// store.dispatch(filterCompanies());
-
-// store.dispatch(addTag('CSS'));
-// store.dispatch(addTag('HTML'));
-// store.dispatch(filterCompanies());
-
-// store.dispatch(removeAllTags());
-// store.dispatch(filterCompanies());
-
-// console.log(store.getState().tags);
-// console.log(store.getState().filteredCompanies);
-
-// store.subscribe(() => console.log(store.getState().tags));

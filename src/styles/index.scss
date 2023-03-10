@@ -26,6 +26,10 @@ body {
     font-family: 'League Spartan', sans-serif;
     background-color: var(--color-gray-cyan-bg);
     padding-bottom: 34px;
+
+    @media only screen and (min-width: 1000px) {
+        padding-bottom: 120px;
+    }
 }
 
 .header {
@@ -42,10 +46,4 @@ body {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 24px;
-}
-
-@media only screen and (min-width: 1000px) {
-    body {
-        padding-bottom: 120px;
-    }
 }
