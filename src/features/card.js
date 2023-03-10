@@ -1,13 +1,14 @@
-import styles from './../../styles/card.module.scss';
+import styles from './../styles/card.module.scss';
 
 export const Card = function (props) {
-    const tags = [props.role, props.level, ...props.languages, ...props.tools];
-    console.log(tags);
-
     return (
         <div className={styles.card}>
             <div className={styles.logoBox}>
-                <img className={styles.logo} src={props.logo} alt="Brand" />
+                <img
+                    className={styles.logo}
+                    src={props.logo}
+                    alt="Company Logo"
+                />
             </div>
 
             <div className={styles.contentBox}>
@@ -32,7 +33,12 @@ export const Card = function (props) {
 
             <div className={styles.tagsBox}>
                 <ul className={styles.tagsUl}>
-                    {tags.map(tag => (
+                    {[
+                        props.role,
+                        props.level,
+                        ...props.languages,
+                        ...props.tools,
+                    ].map(tag => (
                         <li className={styles.tag} key={tag}>
                             {tag}
                         </li>

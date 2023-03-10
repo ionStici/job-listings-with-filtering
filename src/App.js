@@ -3,7 +3,7 @@ import React from 'react';
 import bgHeaderMobile from './images/bg-header-mobile.svg';
 import bgHeaderDesktop from './images/bg-header-desktop.svg';
 
-import { Cards } from './features/cards/cards';
+import { Cards } from './features/cards';
 
 function App() {
     const mediaMatch = window.matchMedia('(min-width: 900px)');

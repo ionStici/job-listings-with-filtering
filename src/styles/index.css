@@ -25,4 +25,33 @@
 body {
     font-family: 'League Spartan', sans-serif;
     background-color: var(--color-gray-cyan-bg);
+    padding-bottom: 34px;
+}
+
+.header {
+    height: 156px;
+    background-color: var(--color-dark-cyan);
+}
+
+.header__img {
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 24px;
+
+    padding-top: 56px;
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        padding-bottom: 120px;
+    }
+
+    .section {
+        padding-top: 76px;
+    }
 }
