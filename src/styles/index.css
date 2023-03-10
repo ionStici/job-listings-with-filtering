@@ -1,5 +1,14 @@
 :root {
+    --color-white: hsla(0, 0%, 100%, 1);
     --color-dark-cyan: hsl(180, 29%, 50%);
+    --color-dark-cyan-01: hsla(180, 29%, 50%, 0.1);
+    --color-gray-cyan-bg: hsl(180, 52%, 96%);
+    --color-gray-cyan-filter: hsl(180, 31%, 95%);
+    --color-gray-cyan: hsl(180, 8%, 52%);
+    --color-gray-cyan-border: hsla(180, 10%, 74%, 1);
+    --color-dark-gray-cyan: hsl(180, 14%, 20%);
+
+    --shadow-main: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
 }
 
 * {
@@ -15,4 +24,5 @@
 
 body {
     font-family: 'League Spartan', sans-serif;
+    background-color: var(--color-gray-cyan-bg);
 }

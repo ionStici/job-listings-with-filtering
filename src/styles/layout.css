@@ -7,3 +7,13 @@
     width: 100%;
     height: 100%;
 }
+
+.section {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 24px;
+
+    /* TEMP */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

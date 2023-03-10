@@ -2,7 +2,8 @@
 
 This is a solution to the [Job listings with filtering challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt).
 
-<!-- - Desaturated Dark Cyan: hsl(180, 29%, 50%)
+<!--
+- Desaturated Dark Cyan: hsl(180, 29%, 50%)
 - Light Grayish Cyan (Background): hsl(180, 52%, 96%)
 - Light Grayish Cyan (Filter Tablets): hsl(180, 31%, 95%)
 - Dark Grayish Cyan: hsl(180, 8%, 52%)
