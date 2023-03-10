@@ -94,4 +94,4 @@ export const store = createStore(reducer);
 // console.log(store.getState().tags);
 // console.log(store.getState().filteredCompanies);
 
-store.subscribe(() => console.log(store.getState().tags));
+// store.subscribe(() => console.log(store.getState().tags));

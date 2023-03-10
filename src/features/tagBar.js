@@ -21,7 +21,10 @@ export const TagBar = function () {
 
     const hideStyles = {};
     const tags = useSelector(selectTags);
-    if (!tags[0]) hideStyles.opacity = '0';
+    if (!tags[0]) {
+        hideStyles.opacity = '0';
+        hideStyles.pointerEvents = 'none';
+    }
 
     return (
         <div className={styles.tagBar} style={hideStyles}>
