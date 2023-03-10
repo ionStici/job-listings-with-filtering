@@ -39,7 +39,11 @@ export const Card = function (props) {
                         ...props.languages,
                         ...props.tools,
                     ].map(tag => (
-                        <li className={styles.tag} key={tag}>
+                        <li
+                            className={styles.tag}
+                            key={tag}
+                            onClick={props.handleTagClick}
+                        >
                             {tag}
                         </li>
                     ))}

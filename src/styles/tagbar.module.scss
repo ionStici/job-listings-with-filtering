@@ -1,0 +1,28 @@
+.tagBar {
+    max-width: 510px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: -36px;
+    background-color: var(--color-white);
+    box-shadow: var(--shadow-main);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+    z-index: 1;
+    margin-bottom: 56px;
+}
+
+.tagsBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+}
+
+.btn {
+}
